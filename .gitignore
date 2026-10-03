@@ -1,0 +1,14 @@
+# 本地数据目录（WAL 与审计文件）
+data/
+
+# 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+credential-rotation-store-go
+
+# 测试覆盖率
+*.out
+coverage.txt
